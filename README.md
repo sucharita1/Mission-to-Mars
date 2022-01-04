@@ -26,7 +26,7 @@ Database:  Mongodb- v5.0.3
 * The webpage is mobile responsive and can be viewed in a laptop, mobile or an ipad.
 ![responsive_url](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/responsive_url.png?raw=true)
 * TWO additional Bootstrap 3 components are used to style the webpage are :
-1. The Scrape New Data Button is converted to btn-primary to btn-warning to match the colour of Red planet Mars. The backgorund colour of jumbotron heading is changed to DarkSalmon to match the Red planet Mars.
+1. The Scrape New Data Button is converted to btn-primary to btn-warning to match the colour of Red planet Mars. The background colour of jumbotron heading is changed to DarkSalmon to match the Red planet Mars.
 ![styles_button_heading](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/styles_button_heading.png?raw=true)
-2. Mars Facts Table is given border with DarkSalmon background to match the whole website ode to Mars and the data is centred.
+2. Mars Facts Table is given border with DarkSalmon background to match the whole website ode to Mars and the data is centred to give the table a better look.
 ![styles_table_border_heading](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/styles_table_border_heading.png?raw=true)
