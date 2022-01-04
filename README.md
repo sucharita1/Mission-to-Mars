@@ -5,8 +5,8 @@ Scrape all data on the web on mission to Mars and store it in MongoDB and finall
 A junior data scientist Robin does freelance astronomy work in her spare time. Her dream is to land a position with NASA someday. So she spends a lot of time visiting sites with news about space exploration, especially the mission to Mars. She plans to build a web application that will scrape new data from web every time she tells it to at the click of a button. We help her write the python script that can navigate the webpages to collect the information. Once we have all the data we will use a NoSQL database MongoDB, as we'll be downloading tables for sure but also paragraphs and images. Now, to put it all together on a web application of we will use Flask, a web framework that allows us to create a web application using python and then customise it with HTML and CSS. 
 
 ## Resources
-Software: Python-3.7.10, Jupyter notebook 6.3.0,splinter-0.17.0, bs4, webdriver-manager chrome,flask-1.1.2, Bootstrap-3
-Database:  Mongodb- v5.0.3
+* Software: Python-3.7.10, Jupyter notebook 6.3.0,splinter-0.17.0, bs4, webdriver-manager chrome,flask-1.1.2, Bootstrap-3
+* Database:  Mongodb- v5.0.3
 
 ## Results
 #### Scraping the Full-Resolution Mars Hemisphere Images and Titles
