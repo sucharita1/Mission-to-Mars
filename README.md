@@ -10,23 +10,23 @@ Database:  Mongodb- v5.0.3
 
 ## Results
 #### Scraping the Full-Resolution Mars Hemisphere Images and Titles
-* [Mission_to_Mars_Challenge.ipynb]() that clicks on each hemispheric link and retrieves ALL full-resolution images and titles of the four hemisphere images. 
+* [Mission_to_Mars_Challenge.ipynb](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Mission_to_Mars_Challenge.ipynb) that clicks on each hemispheric link and retrieves ALL full-resolution images and titles of the four hemisphere images. 
 * ALL full-resolution images are added to the dictionary, hemispheres.
 * The dictionary that contains full-resolution image URLs and image titles is added to a list, hemisphere_image_urls.
-![hemisphere_image_urls](?raw=true)
+![hemisphere_image_urls](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/hemisphere_image_urls.png?raw=true)
 
 #### Updating the Web App with Mars Hemisphere Images
-* The [scraping.py]() file is updated and retrieves ALL FOUR of the full-resolution image URLs and titles. 
+* The [scraping.py](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/scraping.py) file is updated and retrieves ALL FOUR of the full-resolution image URLs and titles. 
 * The mongo database is updated to contain ALL FOUR of the full-resolution image URLs and titles. 
-![mongodb_mars_db](?raw=true)
-* The [index.html]() file contains code that will display the full-resolution image URLs and titles.
-* The [app.py]() contains flask scripts that link all the information from this module and ALL FOUR full-resolution images and titles of the four hemisphere images to a webpage.
+![mongodb_mars_db](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/mongodb_mars_db.png?raw=true)
+* The [index.html](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/templates/index.html) file contains code that will display the full-resolution image URLs and titles.
+* The [app.py](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/app.py) contains flask scripts that link all the information from this module and ALL FOUR full-resolution images and titles of the four hemisphere images to a webpage.
 
 #### Add Bootstrap 3 Components
 * The webpage is mobile responsive and can be viewed in a laptop, mobile or an ipad.
-![responsive_url](?raw=true)
+![responsive_url](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/responsive_url.png?raw=true)
 * TWO additional Bootstrap 3 components are used to style the webpage are :
 1. The Scrape New Data Button is converted to btn-primary to btn-warning to match the colour of Red planet Mars. The backgorund colour of jumbotron heading is changed to DarkSalmon to match the Red planet Mars.
-[styles_button_heading](?raw=true)
+![styles_button_heading](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/styles_button_heading.png?raw=true)
 2. Mars Facts Table is given border with DarkSalmon background to match the whole website ode to Mars and the data is centred.
-[styles_table_border_heading](?raw=true)
+![styles_table_border_heading](https://github.com/sucharita1/Mission-to-Mars/blob/c2df349a4e62814988b42af6fcd929d98a00bb1c/Resources/styles_table_border_heading.png?raw=true)
